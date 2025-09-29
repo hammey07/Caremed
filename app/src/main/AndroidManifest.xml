@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/care_med_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/care_med_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Med_UI_CreateNewPrescription" />
+        <activity android:name=".Medical_Pract_ViewExistingRecord" />
+        <activity android:name=".Patient_UI_MedicationUpdateForm" />
+        <activity android:name=".Patient_UI_MedicationViewForm" />
+        <activity android:name=".Patient_UI_MedicationEntryForm" />
+        <activity android:name=".Medical_Pract_Patient_Record" />
+        <activity android:name=".PatientUI" />
+        <activity android:name=".medicalPracUI" />
+        <activity android:name=".patientSignUp" />
+        <activity android:name=".medicalPractitionerSignUp" />
+        <activity android:name=".registrationMenu" />
+        <activity android:name=".loginForm" />
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

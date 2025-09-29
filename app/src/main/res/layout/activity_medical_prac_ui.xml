@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:context=".medicalPracUI">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/actionBarBackground"
+            app:titleTextColor="#FFFFFF"
+            android:elevation="4dp"
+            android:layout_marginBottom="20dp"
+            android:paddingVertical="10dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        tools:context=".medicalPracUI">
+
+
+    <Button
+            android:id="@+id/createNewPatientRecordButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="7dp"
+            android:paddingVertical="20dp"
+            android:text="Create New Patient Record"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:textSize="20sp"
+            android:onClick="MPcreateNewRecordforPatient" />
+
+        <Button
+            android:id="@+id/viewExistingPatientRecordButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:layout_marginVertical="7dp"
+            android:paddingVertical="20dp"
+            android:text="View Existing Patient Record"
+            android:textSize="20sp"
+            android:onClick="btn_viewExistingPatientRecord"/>
+
+        <Button
+            android:id="@+id/createNewPatientPrescriptionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="7dp"
+            android:paddingVertical="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:text="Create New Prescription"
+            android:textSize="20sp"
+            android:onClick="btn_createNewPrescription"/>
+
+        <Button
+            android:id="@+id/updateExistingPatientPrescriptionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="7dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:paddingVertical="20dp"
+            android:text="Update Existing Prescription"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

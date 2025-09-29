@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "215464200527",
+    "firebase_url": "https://care-med-bd3f4.firebaseio.com",
+    "project_id": "care-med-bd3f4",
+    "storage_bucket": "care-med-bd3f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215464200527:android:824535f28ade84cc",
+        "android_client_info": {
+          "package_name": "com.assitance.caremed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215464200527-dlavtlfkfueei0qdihdssrc87mta8e4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyF8AjeIk_NNwxMMhncEmSwuHg8g6KWXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215464200527-dlavtlfkfueei0qdihdssrc87mta8e4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

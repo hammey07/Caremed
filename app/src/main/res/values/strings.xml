@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Care Med</string>
+    <string name="title_activity_medical_practitioner_sign_up">medicalPractitionerSignUp</string>
+
+    <string name="frequency_prompt">Choose Frequency </string>
+    <string name="choose_user_prompt">Choose Patient Lastname</string>
+    <string-array name="frequency_arrays">
+        <item>Once Daily</item>
+        <item>Twice Daily</item>
+        <item>3 Times Daily </item>
+        <item>Once per week</item>
+        <item>Twice per week</item>
+        <item>3 Times per week</item>
+    </string-array>
+
+    <string name="dosage_prompt">Choose Dosage </string>
+    <string-array name="dosage_arrays">
+        <item>mg</item>
+        <item>ml</item>
+    </string-array>
+
+
+</resources>

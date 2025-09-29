@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".PatientUI">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/actionBarBackground"
+            app:titleTextColor="#FFFFFF"
+            android:elevation="4dp"
+            android:layout_marginBottom="20dp"
+            android:paddingVertical="10dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        tools:context=".PatientUI">
+
+
+        <Button
+            android:id="@+id/btn_CreateNewPatientRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp"
+            android:layout_marginVertical="7dp"
+            android:text="Create Medication Record"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:textSize="20sp"
+            android:onClick="btn_createMedicationRecord" />
+
+        <Button
+            android:id="@+id/btn_viewPatientRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp"
+            android:layout_marginVertical="7dp"
+            android:text="View Medication Record"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:textSize="20sp"
+            android:onClick="btn_viewMedicationRecord" />
+
+        <Button
+            android:id="@+id/btn_updateExistingPatientRecord"
+            android:layout_width="match_parent"
+            android:paddingVertical="20dp"
+            android:layout_marginVertical="7dp"
+            android:layout_height="wrap_content"
+            android:text="Update Medication Record"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:textSize="20sp"
+            android:onClick="btn_updateMedicationRecord" />
+
+
+        <Button
+
+            android:id="@+id/btn_viewPrescription"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp"
+            android:layout_marginVertical="7dp"
+            android:text="View Prescription"
+            android:textSize="20sp"
+            android:onClick="btn_viewPrescription" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

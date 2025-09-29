@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:context=".Patient_UI_MedicationViewForm">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorAccent"
+        android:text="Medication Records"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:paddingHorizontal="25dp"
+        tools:context=".Patient_UI_MedicationViewForm">
+
+        <TextView
+            android:id="@+id/txt_viewPatientRecord1"
+            android:inputType="textMultiLine"
+            android:lines="30"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:minLines="2"
+            android:gravity="top|left"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical" />
+        <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="@android:color/darker_gray"/>-->
+
+        <Button
+            android:id="@+id/btn_updateExistingPatientRecord"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded"
+            android:text="Update Medication"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:onClick="btn_updateMedicationRecord" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

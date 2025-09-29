@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".registrationMenu">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/actionBarBackground"
+        app:titleTextColor="#FFFFFF"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        tools:context=".registrationMenu">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:paddingVertical="20dp"
+        android:textAlignment="center"
+        android:text="Please select who will be using this application"
+        android:textFontWeight="700" />
+
+    <Button
+        android:id="@+id/btn_medicalPractitioner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded"
+        android:text="I am a Medical Practitioner"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:onClick="btn_medicalPractitioner_signup" />
+
+    <Button
+        android:id="@+id/btn_patient"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded"
+        android:text="I am a Patient"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:onClick="btn_patient_signup" />
+
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
