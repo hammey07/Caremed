@@ -1,6 +1,6 @@
 ## CareMed – Final Year Project (2019)
 
-Technology: Android (Java), XML, SQLite
+Technology: Android (Java), XML, Firebase
 
 Description:
 CareMed is an Android application developed as my final year project in 2019, aimed at improving healthcare record management and patient engagement. The app supports two types of user logins — one for doctors and one for patients.
